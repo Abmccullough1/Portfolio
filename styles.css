@@ -1,211 +1,226 @@
-body{
-    background-image: linear-gradient(to left,rgb(249, 65, 68),rgb(255, 229, 236));
-    color: rgb(8, 28, 21);
+body {
+  background-image: linear-gradient(
+    to left,
+    rgb(249, 65, 68),
+    rgb(255, 229, 236)
+  );
+  color: rgb(8, 28, 21);
 }
-.heading{
-    font-size: 50pt;
-    font-family: cursive;
+.heading {
+  font-size: 50pt;
+  font-family: cursive;
 }
-.aboutme{
-    font-size: 20pt;
-    font-family: serif;
+.aboutme {
+  font-size: 20pt;
+  font-family: serif;
 }
-.basecamp{
-    font-size: 50pt;
-    font-family: cursive;
-
+.basecamp {
+  font-size: 50pt;
+  font-family: cursive;
 }
-.base{
-    font-family: serif;
-    font-size: 20pt;
+.base {
+  font-family: serif;
+  font-size: 20pt;
 }
-.picAb1{
-    height: 150px;
-    position: absolute;top:0px;
-    position: absolute;right:1210px;
+.picAb1 {
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  position: absolute;
+  right: 1210px;
 }
-.Skill_heading{
-    font-size: 50pt;
-    font-family: cursive;
+.Skill_heading {
+  font-size: 50pt;
+  font-family: cursive;
 }
-.basecamp-img{
-    height: 200px;
-    position: absolute;right:100px;
-    position: absolute;top:520px;
-}
-
-}
-.back-button{
-    position: absolute;top:0px;
-    position: absolute;left:0px;
-    color: blue;
-}
-.css-logo{
-    height: 100px;
-}
-.python-log{
-    height: 100px;
-}
-.html-log{
-    height: 100px;
-}
-.java-log{
-    height: 100px;
-    width: 100px;
-}
-.javascript-log{
-    height:100px;
-}
-.c#-log{
-    height: 100px;
-}
-.django-log{
-    height: 100px;
-}
-.sql-log{
-    height: 100px;
+.basecamp-img {
+  height: 200px;
+  position: absolute;
+  right: 100px;
+  position: absolute;
+  top: 520px;
 }
 
+.back-button {
+  position: absolute;
+  top: 0px;
+  position: absolute;
+  left: 0px;
+  color: blue;
+}
+.css-logo {
+  height: 100px;
+}
+.python-log {
+  height: 100px;
+}
+.html-log {
+  height: 100px;
+}
+.java-log {
+  height: 100px;
+  width: 100px;
+}
+.javascript-log {
+  height: 100px;
+}
+.c#-log {
+  height: 100px;
+}
+.django-log {
+  height: 100px;
+}
+.sql-log {
+  height: 100px;
+}
 
-.spring-log{
-    height: 100px;
+.spring-log {
+  height: 100px;
 }
-.other{
-    font-family: cursive;
-    font-size: 25pt;
+.other {
+  font-family: cursive;
+  font-size: 25pt;
 }
-.other-p{
-    font-size: 15pt;
-    font-family: serif;
+.other-p {
+  font-size: 15pt;
+  font-family: serif;
 }
-.button-to-base-camp{
-    font-size: 10pt;
-    font-family: serif;
+.button-to-base-camp {
+  font-size: 10pt;
+  font-family: serif;
 }
-.charitiy{
-    height: 100px;
+.charitiy {
+  height: 100px;
 }
 .projects {
+  font-size: 50pt;
+  font-family: cursive;
+}
+
+.fuzzy {
+  height: 100px;
+  position: absolute;
+  right: 450px;
+}
+
+.copy {
+  height: 100px;
+  position: absolute;
+  left: 440px;
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    background-image: linear-gradient(
+      to left,
+      rgb(249, 65, 68),
+      rgb(255, 229, 236)
+    );
+    color: rgb(8, 28, 21);
+  }
+  .heading {
     font-size: 50pt;
     font-family: cursive;
-}
-
-.fuzzy{
+  }
+  .aboutme {
+    font-size: 20pt;
+    font-family: serif;
+  }
+  .basecamp {
+    font-size: 50pt;
+    font-family: cursive;
+  }
+  .base {
+    font-family: serif;
+    font-size: 20pt;
+  }
+  .picAb1 {
     height: 100px;
-    position:absolute;right: 450px;
-}
+    position: absolute;
+    top: 0px;
+    position: absolute;
+    left: -30px;
+  }
+  .Skill_heading {
+    font-size: 50pt;
+    font-family: cursive;
+  }
+  .basecamp-img {
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    position: absolute;
+    top: 750px;
+  }
 
-.copy{
-    height:100px;
-   position: absolute;left: 440px;
-   
-}
+  .back-button {
+    position: absolute;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    color: blue;
+  }
+  .css-logo {
+    height: 100px;
+  }
+  .python-log {
+    height: 100px;
+  }
+  .html-log {
+    height: 100px;
+  }
+  .java-log {
+    height: 100px;
+    width: 100px;
+  }
+  .javascript-log {
+    height: 100px;
+  }
+  .c#-log {
+    height: 100px;
+  }
+  .django-log {
+    height: 100px;
+  }
+  .sql-log {
+    height: 100px;
+  }
 
+  .spring-log {
+    height: 100px;
+  }
+  .other {
+    font-family: cursive;
+    font-size: 25pt;
+  }
+  .other-p {
+    font-size: 15pt;
+    font-family: serif;
+  }
+  .button-to-base-camp {
+    font-size: 10pt;
+    font-family: serif;
+  }
+  .charitiy {
+    height: 100px;
+  }
+  .projects {
+    font-size: 50pt;
+    font-family: cursive;
+  }
 
-@media only screen and (max-width: 420px){
-    body{
-        background-image: linear-gradient(to left,rgb(249, 65, 68),rgb(255, 229, 236));
-        color: rgb(8, 28, 21);
-    }
-    .heading{
-        font-size: 50pt;
-        font-family: cursive;
-    }
-    .aboutme{
-        font-size: 20pt;
-        font-family: serif;
-    }
-    .basecamp{
-        font-size: 50pt;
-        font-family: cursive;
-    
-    }
-    .base{
-        font-family: serif;
-        font-size: 20pt;
-    }
-    .picAb1{
-        height: 100px;
-        position: absolute;top:0px;
-        position: absolute;left:-30px;
-    }
-    .Skill_heading{
-        font-size: 50pt;
-        font-family: cursive;
-    }
-    .basecamp-img{
-        height: 80px;
-        position: absolute;right:0px;
-        position: absolute;top:750px;
-    }
-    
-    
-    .back-button{
-        position: absolute;top:0px;
-        position: absolute;left:0px;
-        color: blue;
-    }
-    .css-logo{
-        height: 100px;
-    }
-    .python-log{
-        height: 100px;
-    }
-    .html-log{
-        height: 100px;
-    }
-    .java-log{
-        height: 100px;
-        width: 100px;
-    }
-    .javascript-log{
-        height:100px;
-    }
-    .c#-log{
-        height: 100px;
-    }
-    .django-log{
-        height: 100px;
-    }
-    .sql-log{
-        height: 100px;
-    }
-    
-    
-    .spring-log{
-        height: 100px;
-    }
-    .other{
-        font-family: cursive;
-        font-size: 25pt;
-    }
-    .other-p{
-        font-size: 15pt;
-        font-family: serif;
-    }
-    .button-to-base-camp{
-        font-size: 10pt;
-        font-family: serif;
-    }
-    .charitiy{
-        height: 100px;
-    }
-    .projects {
-        font-size: 50pt;
-        font-family: cursive;
-    }
- 
-    
-    
-    .fuzzy{
-        height: 100px;
-        position: absolute;top:1700px;
-        position: absolute;left:135px;
-    }
-    .copy{
-        height:100px;
-        position: absolute;top: 1550px;
-       position: absolute;left :135px;
-
-    }
+  .fuzzy {
+    height: 100px;
+    position: absolute;
+    top: 1700px;
+    position: absolute;
+    left: 135px;
+  }
+  .copy {
+    height: 100px;
+    position: absolute;
+    top: 1550px;
+    position: absolute;
+    left: 135px;
+  }
 }

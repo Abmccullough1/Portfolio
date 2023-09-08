@@ -82,9 +82,29 @@ body{
     font-size: 10pt;
     font-family: serif;
 }
+.charitiy{
+    height: 100px;
+}
+.projects {
+    font-size: 50pt;
+    font-family: cursive;
+}
+
+.fuzzy{
+    height: 100px;
+    position:absolute;right: 450px;
+}
+
+.copy{
+    height:100px;
+   position: absolute;left: 440px;
+   
+}
+
+
 @media only screen and (max-width: 420px){
     body{
-        background-image: linear-gradient(to left rgb(255, 194, 209),rgb(255, 179, 198),rgb(255, 143, 171));
+        background-image: linear-gradient(to left,rgb(249, 65, 68),rgb(255, 229, 236));
         color: rgb(8, 28, 21);
     }
     .heading{
@@ -114,12 +134,12 @@ body{
         font-family: cursive;
     }
     .basecamp-img{
-        height: 100px;
-        position: absolute;right: 10px;
-        position: absolute;top:740px;
+        height: 80px;
+        position: absolute;right:0px;
+        position: absolute;top:750px;
     }
     
-    }
+    
     .back-button{
         position: absolute;top:0px;
         position: absolute;left:0px;
@@ -166,6 +186,26 @@ body{
     .button-to-base-camp{
         font-size: 10pt;
         font-family: serif;
-}
-}
+    }
+    .charitiy{
+        height: 100px;
+    }
+    .projects {
+        font-size: 50pt;
+        font-family: cursive;
+    }
+ 
+    
+    
+    .fuzzy{
+        height: 100px;
+        position: absolute;top:1700px;
+        position: absolute;left:135px;
+    }
+    .copy{
+        height:100px;
+        position: absolute;top: 1550px;
+       position: absolute;left :135px;
+
+    }
 }

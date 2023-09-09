@@ -91,17 +91,13 @@ body {
 }
 .charitiy {
   height: 100px;
+  position: absolute;left: 750px;
 }
 .projects {
   font-size: 50pt;
   font-family: cursive;
 }
 
-.fuzzy {
-  height: 100px;
-  position: absolute;
-  right: 450px;
-}
 
 .copy {
   height: 100px;
@@ -203,6 +199,8 @@ body {
   }
   .charitiy {
     height: 100px;
+    position: absolute;top:1100px;
+    position: absolute;left:250px;
   }
   .projects {
     font-size: 50pt;
@@ -219,8 +217,8 @@ body {
   .copy {
     height: 100px;
     position: absolute;
-    top: 1550px;
+    top: 1100px;
     position: absolute;
-    left: 135px;
+    left: 90px;
   }
 }

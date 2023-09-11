@@ -91,7 +91,7 @@ body {
 }
 .charitiy {
   height: 100px;
-  position: absolute;left: 750px;
+  position: absolute;left: 850px;
 }
 .projects {
   font-size: 50pt;
@@ -115,20 +115,20 @@ body {
     color: rgb(8, 28, 21);
   }
   .heading {
-    font-size: 50pt;
+    font-size: 30pt;
     font-family: cursive;
   }
   .aboutme {
-    font-size: 20pt;
+    font-size: 15pt;
     font-family: serif;
   }
   .basecamp {
-    font-size: 50pt;
+    font-size: 30pt;
     font-family: cursive;
   }
   .base {
     font-family: serif;
-    font-size: 20pt;
+    font-size: 15pt;
   }
   .picAb1 {
     height: 100px;
@@ -197,29 +197,22 @@ body {
     font-size: 10pt;
     font-family: serif;
   }
-  .charitiy {
+  .charitiy{
     height: 100px;
-    position: absolute;top:1100px;
-    position: absolute;left:250px;
+    position: absolute;bottom:1700px;
+    position: absolute;right:0px;
   }
   .projects {
     font-size: 50pt;
     font-family: cursive;
   }
 
-  .fuzzy {
-    height: 100px;
-    position: absolute;
-    top: 1700px;
-    position: absolute;
-    left: 135px;
-  }
   .copy {
     height: 100px;
     position: absolute;
-    top: 1100px;
+    bottom: -80px;
     position: absolute;
-    left: 90px;
+    left: 0px;
   }
 }
 @media only screen and (max-width: 820px){

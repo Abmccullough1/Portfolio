@@ -1,10 +1,11 @@
 body {
-  background-image: linear-gradient(
-    to left,
-    rgb(249, 65, 68),
-    rgb(255, 229, 236)
-  );
+  background:white;
   color: rgb(8, 28, 21);
+}
+.dark_mode{
+  background: rgb(48, 44, 44);
+  color: rgb(255, 255, 255);
+}
 }
 .heading {
   font-size: 50pt;
@@ -104,6 +105,32 @@ body {
   position: absolute;
   left: 440px;
 }
+.top_head{
+  background-color: rgb(114, 112, 112);
+  font-size: 30pt;
+  padding: 1%;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  
+}
+.dark{
+  position: absolute;top: 0px;
+  position: absolute;left: 0px;
+  position: fixed;
+  background-color: red; 
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 420px) {
   body {

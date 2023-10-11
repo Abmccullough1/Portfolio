@@ -115,13 +115,13 @@ body {
   
 }
 .dark{
-  position: absolute;top: 0px;
+  position: absolute;bottom: 0px;
   position: absolute;left: 0px;
   position: fixed;
   background-color: red; 
     border: none;
     color: white;
-    padding: 5px 5px;
+    padding: 1px 1px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
